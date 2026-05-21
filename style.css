@@ -39,12 +39,19 @@ body {
 
 .tag {
   display: inline-block;
-  background: #dca8a0;
-  color: white;
-  padding: 10px 22px;
-  border-radius: 30px;
+  background: none;
+  /* Remove o fundo */
+  color: #be7f84;
+  /* Altera a cor para um tom que se destaca */
+  padding: 0;
+  /* Remove o preenchimento */
+  border-radius: 0;
+  /* Remove o arredondamento das bordas */
   margin-bottom: 30px;
-  font-size: 14px;
+  font-size: 1.5rem;
+  /* Aumenta o tamanho da fonte */
+  font-weight: 600;
+  /* Adiciona peso à fonte para torná-la mais chamativa */
 }
 
 .hero h1 {
